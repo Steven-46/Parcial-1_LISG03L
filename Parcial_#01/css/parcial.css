@@ -1,0 +1,33 @@
+.card {
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+
+.jumbotron {
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+
+.resultados{
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+
+.navbar {
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.ani:hover{
+  transform: translateY(-10px);
+}
